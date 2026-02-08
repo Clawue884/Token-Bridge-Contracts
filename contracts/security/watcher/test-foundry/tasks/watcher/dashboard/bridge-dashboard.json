@@ -1,0 +1,19 @@
+{
+  "title": "MetaChain Bridge Guardian",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Bridge Usage per Token",
+      "targets": [
+        { "expr": "bridge_used", "legendFormat": "{{token}}" }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Bridge Limit per Token",
+      "targets": [
+        { "expr": "bridge_max", "legendFormat": "{{token}}" }
+      ]
+    }
+  ]
+}
